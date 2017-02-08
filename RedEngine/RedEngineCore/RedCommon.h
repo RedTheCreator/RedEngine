@@ -50,12 +50,12 @@ namespace Red
 #define KEY_DOWN(vk_code) ((GetAsyncKeyState((vk_code) & 0x8000) ? 1 : 0)
 #define KEY_UP(vk_code) ((GetAsyncKeyState((vk_code) & 0x8000) ? 1 : 0)
 
-#define SafeDelete(ptr) if(ptr) {delete ptr;ptr = 0;}
-#define SafeDeleteArray(ptr) if(ptr){delete[] ptr; ptr = 0}
+#define SafeDelete(ptr) if(ptr) {delete ptr; ptr = 0;}
+#define SafeDeleteArray(ptr) if(ptr) {delete[] ptr; ptr = 0}
 
 #define COUT(a) std::cout << #a << ":" << (a) << std::endl;
 
-#define RColor_16BIT(r, g, b) (((r)&0fff) << 16 | ((g)&0fff) << 8 | (b)&0fff)
+#define RColor_16BIT(r, g, b) (((r)&0xff) << 16 | ((g)&0xff) << 8 | (b)&0xff)
 
 	struct RColor
 	{
