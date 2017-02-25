@@ -15,5 +15,25 @@
     <ClInclude Include="RedHeader.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="RedUtil.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="RedMatrix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="RedVector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RedUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RedMatrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RedVector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

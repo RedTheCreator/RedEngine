@@ -21,6 +21,14 @@
   <ItemGroup>
     <ClInclude Include="RedCommon.h" />
     <ClInclude Include="RedHeader.h" />
+    <ClInclude Include="RedMatrix.h" />
+    <ClInclude Include="RedUtil.h" />
+    <ClInclude Include="RedVector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RedMatrix.cpp" />
+    <ClCompile Include="RedUtil.cpp" />
+    <ClCompile Include="RedVector.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{610D8E1A-2A01-47EA-A7B6-83D78EBCEB1F}</ProjectGuid>

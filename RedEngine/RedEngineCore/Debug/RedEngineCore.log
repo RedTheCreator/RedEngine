@@ -1,0 +1,2 @@
+﻿  RedVector.cpp
+f:\red\github\redengine\redengine\redenginecore\redvector.cpp(19): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
