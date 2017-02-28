@@ -24,6 +24,9 @@
     <ClInclude Include="RedVector.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="RedMath.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RedUtil.cpp">
@@ -33,6 +36,9 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="RedVector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RedMath.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
