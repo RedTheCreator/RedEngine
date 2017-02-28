@@ -32,7 +32,7 @@ namespace Red
 	const RString	DEFAULT_NAME = "RedEngine";
 	const RString	DEFAULT_PATH = "Red/";
 
-	static RString GetPath(const RString& file) { return DEFAULT_PATH + file; };
+	static RString GetPath(const RString& file) { return DEFAULT_PATH + file; }
 
 
 #define	PI			3.141592654f
@@ -51,7 +51,7 @@ namespace Red
 #define KEY_UP(vk_code) ((GetAsyncKeyState((vk_code) & 0x8000) ? 1 : 0)
 
 #define SafeDelete(ptr) if(ptr) {delete ptr; ptr = 0;}
-#define SafeDeleteArray(ptr) if(ptr) {delete[] ptr; ptr = 0}
+#define SafeDeleteArray(ptr) if(ptr) {delete[] ptr; ptr = 0;}
 
 #define COUT(a) std::cout << #a << ":" << (a) << std::endl;
 
