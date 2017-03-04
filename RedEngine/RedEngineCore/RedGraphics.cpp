@@ -3,7 +3,7 @@
 
 namespace Red
 {
-	RedBitMap::RedBitMap(const RString& filename) :name(filename), pixels(NULL),
+	RBitMap::RBitMap(const RString& filename) :name(filename), pixels(NULL),
 		pitch(0), width(0), height(0), valid(false)
 	{
 		hBitmap = (HBITMAP)::LoadImage(GHInstance, GetPath(filename).c_str(), IMAGE_BITMAP, 0, 0, LR_LOADFROMFILE);
@@ -30,14 +30,14 @@ namespace Red
 		}
 	}
 
-	RedBitMap::~RedBitMap()
+	RBitMap::~RBitMap()
 	{
 		DeleteObject(hBitmap);
 		DeleteDC(bitmapHDC);
 		SafeDeleteArray(pixels);
 	}
 
-	RColor RedBitMap::getPixel(RInt x, RInt y)
+	RColor RBitMap::getPixel(RInt x, RInt y)
 	{
 		return pixels[y * pitch + x];
 	}

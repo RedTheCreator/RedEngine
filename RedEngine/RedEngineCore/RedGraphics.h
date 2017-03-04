@@ -7,12 +7,12 @@ namespace Red
 {
 	extern HINSTANCE GHInstance;
 
-	class RedBitMap
+	class RBitMap
 	{
 	public:
 		RInt width, height;
-		RedBitMap(const RString& filename);
-		~RedBitMap();
+		RBitMap(const RString& filename);
+		~RBitMap();
 
 		inline RString getName() const { return name; }
 		inline bool isValid() const { return valid; }
@@ -26,6 +26,7 @@ namespace Red
 		HBITMAP	hBitmap;
 		BITMAP	bitmap;
 		HDC		bitmapHDC;
+	public:
 		RColor	*pixels;
 		RInt	pitch;
 	};

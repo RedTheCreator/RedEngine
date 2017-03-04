@@ -22,6 +22,7 @@
     <ClInclude Include="RedCommon.h" />
     <ClInclude Include="RedGraphics.h" />
     <ClInclude Include="RedHeader.h" />
+    <ClInclude Include="RedMaterial.h" />
     <ClInclude Include="RedMath.h" />
     <ClInclude Include="RedMatrix.h" />
     <ClInclude Include="RedUtil.h" />
@@ -29,6 +30,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RedGraphics.cpp" />
+    <ClCompile Include="RedMaterial.cpp" />
     <ClCompile Include="RedMath.cpp" />
     <ClCompile Include="RedMatrix.cpp" />
     <ClCompile Include="RedUtil.cpp" />
