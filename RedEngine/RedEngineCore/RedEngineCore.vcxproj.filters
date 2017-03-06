@@ -33,6 +33,15 @@
     <ClInclude Include="RedMaterial.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="RedLight.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="RedCore.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="RedFrustum.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RedUtil.cpp">
@@ -51,6 +60,15 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="RedMaterial.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RedLight.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RedFrustum.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RedCore.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

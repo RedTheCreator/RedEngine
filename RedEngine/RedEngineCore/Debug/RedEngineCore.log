@@ -1,2 +1,13 @@
 ﻿  RedVector.cpp
 f:\red\github\redengine\redengine\redenginecore\redvector.cpp(19): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
+  RedUtil.cpp
+f:\red\github\redengine\redengine\redenginecore\redutil.cpp(47): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
+  RedMatrix.cpp
+f:\red\github\redengine\redengine\redenginecore\redmatrix.cpp(11): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
+  RedMath.cpp
+f:\red\github\redengine\redengine\redenginecore\redmath.cpp(98): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
+  RedMaterial.cpp
+f:\red\github\redengine\redengine\redenginecore\redmaterial.cpp(170): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
+  RedGraphics.cpp
+f:\red\github\redengine\redengine\redenginecore\redgraphics.cpp(166): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "stdafx.h"' をソースに追加しましたか?
+  コードを生成中...
