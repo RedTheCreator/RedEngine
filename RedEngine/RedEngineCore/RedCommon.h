@@ -55,7 +55,7 @@ namespace Red
 
 #define COUT(a) std::cout << #a << ":" << (a) << std::endl;
 
-#define RColor_16BIT(r, g, b) (((r)&0xff) << 16 | ((g)&0xff) << 8 | (b)&0xff)
+#define RCOLOR_16BIT(r, g, b) (((r)&0xff) << 16 | ((g)&0xff) << 8 | (b)&0xff)
 
 	struct RColor
 	{
@@ -70,7 +70,7 @@ namespace Red
 
 		RColor(RUChar ri = 0, RUChar gi = 0, RUChar bi = 0, RUChar ai = 0) : r(ri), g(gi), b(bi), a(ai) {}
 
-		RInt ToInt() const {return RColor_16BIT(r, g, b); }
+		RInt ToInt() const {return RCOLOR_16BIT(r, g, b); }
 		RColor operator * (const RColor &c) const
 		{
 			RInt ri = r * c.r >> 8;

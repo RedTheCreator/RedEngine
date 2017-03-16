@@ -2,7 +2,8 @@
 
 #include "RedCommon.h"
 #include "RedVector.h"
-#include "RedMaterial.h"
+#include "RedMatrix.h"
+#include "RedCore.h"
 
 namespace Red
 {

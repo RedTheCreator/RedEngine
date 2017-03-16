@@ -165,42 +165,43 @@ namespace Red
 
 	void Transform_Renderlist4(RRenderList4* renderList, const RMatrix4x4& mat, OBJ_TRANSFORM_TYPE transformType);
 
-	void Insert_Object4_To_RenderList4(RRenderList4* renderList, RObject4* obj, OBJ_TRANSFORM_TYPE transformType = TRANSFORM_LOCAL_TO_TRANS, bool transformScaleAndPosition = false);
+	void Insert_Object4_To_RenderList4(RRenderList4* renderList, RObject4* object, OBJ_TRANSFORM_TYPE transformType = TRANSFORM_LOCAL_TO_TRANS, bool transformScaleAndPosition = false);
 
-	void Local_To_World_Object4(RObject4* obj, OBJ_TRANSFORM_TYPE transformType = TRANSFORM_LOCAL_TO_TRANS);
+	void Local_To_World_Object4(RObject4* object, OBJ_TRANSFORM_TYPE transformType = TRANSFORM_LOCAL_TO_TRANS);
 
 	void Local_To_World_RenderList4(RRenderList4* renderList, const RVector4& pos, OBJ_TRANSFORM_TYPE transformType = TRANSFORM_LOCAL_TO_TRANS);
 
 	bool Cull_Object4(RObject4* object, RFrustum* camera, CULL_TYPE cullType = CULL_SPHERE);
 
+	bool Remove_Backface(RPolygon4* poly, RFrustum* camera);
 	bool Remove_Backface(RPolygonF4* poly, RFrustum* camera);
 
 	void Remove_Backface_Object4(RObject4* object, RFrustum* camera);
 
 	void Remove_Backface_RenderList4(RRenderList4* renderList, RFrustum* camera);
 
-	void Light_Polygon4(RPolygonF4* poly, RFrustum* camera);
+	void Light_PolygonF4(RPolygonF4* poly, RFrustum* camera);
 	void Light_RenderList4(RRenderList4* renderList, RFrustum* camera);
 
-	void World_To_Camera_Object4(RObject4* obj, RFrustum* camera);
+	void World_To_Camera_Object4(RObject4* object, RFrustum* camera);
 	void World_To_Camera_RenderList4(RRenderList4* renderList, RFrustum* camera);
 
 	void Sort_RenderList4(RRenderList4* renderList);
 
-	void Camera_To_Perspective_Object4(RObject4* obj, RFrustum* camera);
+	void Camera_To_Perspective_Object4(RObject4* object, RFrustum* camera);
 	void Camera_To_Perspective_RenderList4(RRenderList4* renderList, RFrustum* camera);
 
-	void Perspective_To_Screen_Object4(RObject4* obj, RFrustum* camera);
+	void Perspective_To_Screen_Object4(RObject4* object, RFrustum* camera);
 	void Perspective_To_Screen_RenderList4(RRenderList4* renderList, RFrustum* camera);
 
 	void Clip_RenderList4(RRenderList4* renderList, RFrustum* camera);
 
 	void World_To_Screen_RenderList4(RRenderList4* renderList, RFrustum* camera);
 
-	void Draw_Objcet4_Wire(RObject4* obj);
+	void Draw_Objcet4_Wire(RObject4* object);
 	void Draw_RenderList4_Wire(RRenderList4* renderList);
 
-	void Draw_Object4_Solid(RObject4* obj);
+	void Draw_Object4_Solid(RObject4* object);
 	void Draw_RenderList4_Solid(RRenderList4* renderList);
 
 	void Draw_RenderList4_Texture_Solid(RRenderList4* renderList);

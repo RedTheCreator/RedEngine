@@ -1,0 +1,64 @@
+﻿  RedCore.cpp
+RedCore.cpp(253): warning C4552: '/': 演算子にプログラム上の作用がありません。作用を伴う演算子を使用してください
+RedCore.cpp(536): warning C4244: '+=': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(537): warning C4244: '+=': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(538): warning C4244: '+=': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(542): warning C4244: '+=': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(543): warning C4244: '+=': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(544): warning C4244: '+=': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(557): warning C4244: '+=': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(558): warning C4244: '+=': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(559): warning C4244: '+=': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(563): warning C4244: '+=': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(564): warning C4244: '+=': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(565): warning C4244: '+=': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(824): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(826): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(828): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(845): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(847): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(849): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(877): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(896): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(952): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(953): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(989): warning C4244: '=': 'Red::RInt' から 'Red::RFloat' への変換です。データが失われる可能性があります。
+RedCore.cpp(990): warning C4244: '=': 'Red::RInt' から 'Red::RFloat' への変換です。データが失われる可能性があります。
+RedCore.cpp(1030): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(1033): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(1101): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(1102): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(1137): warning C4244: '=': 'Red::RInt' から 'Red::RFloat' への変換です。データが失われる可能性があります。
+RedCore.cpp(1138): warning C4244: '=': 'Red::RInt' から 'Red::RFloat' への変換です。データが失われる可能性があります。
+RedCore.cpp(1178): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedCore.cpp(1181): warning C4244: '引数': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+  RedFrustum.cpp
+  RedGraphics.cpp
+  RedLight.cpp
+  RedMaterial.cpp
+RedMaterial.cpp(24): warning C4244: '初期化中': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedMaterial.cpp(25): warning C4244: '初期化中': 'Red::RFloat' から 'Red::RInt' への変換です。データが失われる可能性があります。
+RedMaterial.cpp(120): warning C4477: 'sscanf' : 書式文字列 '%f' には、型 'float *' の引数が必要ですが、可変個引数 2 は型 'Red::RUChar *' です
+RedMaterial.cpp(120): warning C4477: 'sscanf' : 書式文字列 '%f' には、型 'float *' の引数が必要ですが、可変個引数 3 は型 'Red::RUChar *' です
+RedMaterial.cpp(120): warning C4477: 'sscanf' : 書式文字列 '%f' には、型 'float *' の引数が必要ですが、可変個引数 4 は型 'Red::RUChar *' です
+RedMaterial.cpp(120): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' の宣言を確認してください
+RedMaterial.cpp(131): warning C4477: 'sscanf' : 書式文字列 '%f' には、型 'float *' の引数が必要ですが、可変個引数 2 は型 'Red::RUChar *' です
+RedMaterial.cpp(131): warning C4477: 'sscanf' : 書式文字列 '%f' には、型 'float *' の引数が必要ですが、可変個引数 3 は型 'Red::RUChar *' です
+RedMaterial.cpp(131): warning C4477: 'sscanf' : 書式文字列 '%f' には、型 'float *' の引数が必要ですが、可変個引数 4 は型 'Red::RUChar *' です
+RedMaterial.cpp(131): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' の宣言を確認してください
+RedMaterial.cpp(142): warning C4477: 'sscanf' : 書式文字列 '%f' には、型 'float *' の引数が必要ですが、可変個引数 2 は型 'Red::RUChar *' です
+RedMaterial.cpp(142): warning C4477: 'sscanf' : 書式文字列 '%f' には、型 'float *' の引数が必要ですが、可変個引数 3 は型 'Red::RUChar *' です
+RedMaterial.cpp(142): warning C4477: 'sscanf' : 書式文字列 '%f' には、型 'float *' の引数が必要ですが、可変個引数 4 は型 'Red::RUChar *' です
+RedMaterial.cpp(142): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' の宣言を確認してください
+RedMaterial.cpp(154): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' の宣言を確認してください
+  RedMath.cpp
+  RedMatrix.cpp
+  RedUtil.cpp
+RedUtil.cpp(33): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: 'vsprintf' の宣言を確認してください
+  RedVector.cpp
+  RedEngineCore.vcxproj -> F:\Red\Github\RedEngine\RedEngine\Release\RedEngineCore.lib

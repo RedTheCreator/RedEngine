@@ -87,11 +87,20 @@ namespace Red
 
 	void GetVertex4MulMatrix4x4(const RVertex4& vec, const RMatrix4x4& mat, RVertex4& result)
 	{
+		RFloat x = vec.x * mat.m[0][0] + vec.y * mat.m[1][0] + vec.z * mat.m[2][0] + mat.m[3][0];
+		RFloat y = vec.x * mat.m[0][1] + vec.y * mat.m[1][1] + vec.z * mat.m[2][1] + mat.m[3][1];
+		RFloat z = vec.x * mat.m[0][2] + vec.y * mat.m[1][2] + vec.z * mat.m[2][2] + mat.m[3][2];
+		RFloat w = 1;
 
+		result.x = x, result.y = y, result.z = z, result.w = 1;
 	}
 
 	void GetVertex4AddVector4(const RVertex4& v, const RVector4& p, RVertex4& result)
 	{
+		RFloat x = v.x + p.x;
+		RFloat y = v.y + p.y;
+		RFloat z = v.z + p.z;
 
+		result.x = x, result.y = y, result.z = z, result.w = 1;
 	}
 }

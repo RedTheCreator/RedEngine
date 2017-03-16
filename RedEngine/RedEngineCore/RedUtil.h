@@ -77,7 +77,7 @@ namespace Red
 		const static RString SPACE_CHAR = "\t\f\v\n\r";
 		std::size_t beg = msg.find_first_not_of(SPACE_CHAR);
 
-		if (beg > msg.length)
+		if (beg > msg.length())
 		{
 			return RString();
 		}
